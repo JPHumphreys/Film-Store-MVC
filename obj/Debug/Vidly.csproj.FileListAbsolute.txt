@@ -222,3 +222,4 @@ C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.csproj.CopyC
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.init.resources
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.AddMovies.resources
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.UpdateGenres.resources
