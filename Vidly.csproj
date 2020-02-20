@@ -195,6 +195,10 @@
     <Compile Include="Migrations\202002201125098_UpdateCustomers.Designer.cs">
       <DependentUpon>202002201125098_UpdateCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002201452154_AddGenresToDatabase.cs" />
+    <Compile Include="Migrations\202002201452154_AddGenresToDatabase.Designer.cs">
+      <DependentUpon>202002201452154_AddGenresToDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -205,6 +209,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\NewCustomerViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewController.cs" />
   </ItemGroup>
@@ -271,6 +276,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -303,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002201125098_UpdateCustomers.resx">
       <DependentUpon>202002201125098_UpdateCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002201452154_AddGenresToDatabase.resx">
+      <DependentUpon>202002201452154_AddGenresToDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
