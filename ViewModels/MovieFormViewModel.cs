@@ -39,7 +39,7 @@ namespace Vidly.ViewModels
 
         public MovieFormViewModel()
         {
-            Id = 0;
+            Id = 0;//make sure that the hidden id form is populated
         }
 
         public MovieFormViewModel(Movie movie)
