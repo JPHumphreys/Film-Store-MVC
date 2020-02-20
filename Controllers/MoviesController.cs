@@ -5,6 +5,7 @@ using Vidly.ViewModels;
 using System.Data.Entity;
 using System.Linq;
 using System;
+using System.Data.Entity.Validation;
 
 namespace Vidly.Controllers
 {
@@ -104,7 +105,15 @@ namespace Vidly.Controllers
                 movieInDb.ReleaseDate = movie.ReleaseDate;
             }
 
-            _context.SaveChanges();
+            try
+            {
+                _context.SaveChanges();
+            }
+            catch( DbEntityValidationException e)
+            {
+                Console.WriteLine(e);
+            }
+            
 
             return RedirectToAction("Index", "Movies");
         }

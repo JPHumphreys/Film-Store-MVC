@@ -226,3 +226,4 @@ C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.U
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.UpdateMovies.resources
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.UpdateCustomers.resources
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.AddGenresToDatabase.resources
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.RemovingRequiredFromGenre.resources

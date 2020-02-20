@@ -199,6 +199,10 @@
     <Compile Include="Migrations\202002201452154_AddGenresToDatabase.Designer.cs">
       <DependentUpon>202002201452154_AddGenresToDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002201503064_RemovingRequiredFromGenre.cs" />
+    <Compile Include="Migrations\202002201503064_RemovingRequiredFromGenre.Designer.cs">
+      <DependentUpon>202002201503064_RemovingRequiredFromGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -312,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002201452154_AddGenresToDatabase.resx">
       <DependentUpon>202002201452154_AddGenresToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002201503064_RemovingRequiredFromGenre.resx">
+      <DependentUpon>202002201503064_RemovingRequiredFromGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
