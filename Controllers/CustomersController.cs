@@ -58,7 +58,7 @@ namespace Vidly.Controllers
             }
             _context.SaveChanges();//goes through all modified objects - generate SQL statements at runtime
 
-            return RedirectToAction("Index","Customer");
+            return RedirectToAction("Index","Customers");
         }
 
         // GET: Customers

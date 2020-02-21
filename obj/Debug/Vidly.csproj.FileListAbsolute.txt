@@ -233,3 +233,5 @@ C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\System.Web.Http.WebHost.
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\System.Net.Http.Formatting.xml
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\System.Web.Http.xml
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\System.Web.Http.WebHost.xml
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\AutoMapper.dll
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\AutoMapper.xml
