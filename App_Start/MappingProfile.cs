@@ -16,6 +16,7 @@ namespace Vidly.App_Start
             // API -> Outbound
             Mapper.CreateMap<Customer, CustomerDto>();
             Mapper.CreateMap<Movie, MovieDto>();
+            Mapper.CreateMap<MembershipType, MembershipTypeDto>();
 
             // API <- Inbound
             Mapper.CreateMap<CustomerDto, Customer>()
