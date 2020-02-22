@@ -235,3 +235,6 @@ C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\System.Web.Http.xml
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\System.Web.Http.WebHost.xml
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\AutoMapper.dll
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\AutoMapper.xml
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
