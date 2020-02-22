@@ -243,3 +243,4 @@ C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\Glimpse.AspNet.dll
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\Glimpse.Core.dll
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\Glimpse.EF6.dll
 C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\bin\Glimpse.Mvc5.dll
+C:\Users\J\Documents\2020\Code\MVC\Video-MVC-master\obj\Debug\Vidly.Migrations.AddRental.resources
