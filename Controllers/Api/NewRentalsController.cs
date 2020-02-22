@@ -19,7 +19,7 @@ namespace Vidly.Controllers.Api
         public IHttpActionResult CreateNewRentals(NewRentalDto newRental)
         {
         
-            var customer = _context.Customers.SingleOrDefault(
+            var customer = _context.Customers.Single(
                 c => c.Id == newRental.CustomerId);
             
             var movies = _context.Movies.Where(
