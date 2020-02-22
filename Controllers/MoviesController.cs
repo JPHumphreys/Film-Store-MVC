@@ -22,6 +22,7 @@ namespace Vidly.Controllers
             _context.Dispose();
         }
 
+        [AllowAnonymous]
         public ViewResult Index()
         {
             if (User.IsInRole(RoleName.CanManageMovies))
@@ -43,6 +44,7 @@ namespace Vidly.Controllers
             return View("MovieForm", viewModel);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
