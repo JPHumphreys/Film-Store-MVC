@@ -18,12 +18,13 @@ namespace Vidly.Controllers.Api
         [HttpPost]
         public IHttpActionResult CreateNewRentals(NewRentalDto newRental)
         {
-            var customer = _context.Customers.Single(
+        
+            var customer = _context.Customers.SingleOrDefault(
                 c => c.Id == newRental.CustomerId);
-
+            
             var movies = _context.Movies.Where(
-                m => newRental.MovieIds.Contains(m.Id)).ToList();
-
+                m => newRental.MovieIds.Contains(m.Id)).ToList();//load multiple movies
+            
             foreach (var movie in movies)
             {
                 if (movie.NumberAvailable == 0)
@@ -31,7 +32,7 @@ namespace Vidly.Controllers.Api
 
                 movie.NumberAvailable--;
 
-                var rental = new Rental
+                var rental = new Rental //each movie we create a rental object
                 {
                     Customer = customer,
                     Movie = movie,
