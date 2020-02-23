@@ -27,7 +27,8 @@ namespace Vidly
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-journal.css",
+                      "~/Content/theme.css",
                       "~/Content/datatables/css/datatables.bootstrap.css",
                       "~/Content/typeahead.css",
                       "~/Content/toastr.css",
