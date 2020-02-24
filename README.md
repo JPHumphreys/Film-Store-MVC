@@ -16,7 +16,6 @@ username and password for this user is available upon request
 
 Client Role:
 
-  * able to create a rental
   * able to view movies
   
 username and password for this user is available upon request
