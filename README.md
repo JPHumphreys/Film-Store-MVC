@@ -20,3 +20,7 @@ Client Role:
   * able to view movies
   
 username and password for this user is available upon request
+
+Unauthorized Users:
+
+ * able to see movies
